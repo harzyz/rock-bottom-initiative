@@ -8,16 +8,16 @@ const page = () => {
   return (
     <div className="bg-[#FAFAFA] flex flex-col  w-full h-full">
       <Navbar />
-      <div className="flex h-full ">
-        <div className="w-[45%] h-[700px]">
+      <div className="flex flex-col lg:flex-row h-full ">
+        <div className="lg:w-[45%] lg:p-0 p-[10px] h-[200px] lg:h-[700px]">
           <Image
             className="w-full h-full object-cover"
             src={loginImg}
             alt="Group of people smiling"
           />
         </div>
-        <div className="w-[55%] pt-[50px] flex justify-center">
-          <form className="w-[60%] gap-[20px] flex flex-col">
+        <div className="lg:w-[55%] pt-[50px] flex justify-center">
+          <form className="lg:w-[60%] gap-[20px] flex flex-col">
             
             <h1 className="font-bold text-[36px] ">Log In</h1>
             <p className="text-[#525560] text-xs">

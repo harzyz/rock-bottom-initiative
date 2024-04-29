@@ -7,34 +7,34 @@ const Volunteer = () => {
   return (
     <div className="bg-[#FAFAFA] flex flex-col  w-full h-full">
       <Navbar />
-      <div className="flex h-full ">
-        <div className="w-[45%] h-[700px]">
+      <div className="flex flex-col lg:flex-row h-full ">
+        <div className="lg:w-[45%] lg:p-0 p-[10px] h-[200px] lg:h-[700px]">
           <Image
             className="w-full h-full object-cover"
             src={VolunteerImg}
             alt="Group of people smiling"
           />
         </div>
-        <div className="w-[55%] pt-[50px] flex justify-center">
-          <form className="w-[60%] gap-[20px] flex flex-col">
+        <div className="lg:w-[55%] px-[15px] pt-[50px] flex justify-center">
+          <form className="lg:w-[60%] gap-[20px] flex flex-col">
             
-            <h1 className="font-bold text-[36px] ">Volunteer Today!</h1>
+            <h1 className="font-bold text-[20px] lg:text-[36px] ">Volunteer Today!</h1>
             <p className="text-[#525560] text-xs">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspen
               varius enim in eros elementum tristique.{" "}
             </p>
-            <div className="w-full justify-between flex ">
-              <div className="flex w-[45%] gap-[10px] flex-col">
+            <div className="w-full flex-col lg:flex-row justify-between flex ">
+              <div className="flex lg:w-[45%] gap-[10px] flex-col">
                 <label className="text-[#9B9B9B] text-[18px]">First Name</label>
                 <input className="h-[50px] rounded-[8px] bg-[#F2F2F2]" type="text" />
               </div>
-              <div className="flex w-[45%] gap-[10px] flex-col">
+              <div className="flex lg:w-[45%] gap-[10px] flex-col">
                 <label className="text-[#9B9B9B] text-[18px]">Last Name</label>
                 <input className="h-[50px] rounded-[8px] bg-[#F2F2F2]" type="text" />
               </div>
             </div>
-            <div className="flex ">
-              <div className="flex w-[45%] gap-[10px] flex-col">
+            <div className="w-full ">
+              <div className="flex lg:w-[45%] gap-[10px] flex-col">
                 <label className="text-[#9B9B9B] text-[18px]">Email Address</label>
                 <input className="h-[50px] rounded-[8px] bg-[#F2F2F2]" type="text" />
               </div>
