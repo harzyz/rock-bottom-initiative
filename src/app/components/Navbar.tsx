@@ -4,7 +4,7 @@ import BrownButton from "./BrownButton";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
+  // const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleBodyOverflow = (open: boolean) => {
     const body = document.body;
@@ -13,9 +13,9 @@ const Navbar = () => {
     }
   };
 
-  useEffect(() => {
-    toggleBodyOverflow(isNavOpen);
-  }, [isNavOpen]);
+  // useEffect(() => {
+  //   toggleBodyOverflow(isNavOpen);
+  // }, [isNavOpen]);
 
   const NavItems = [
     {
@@ -37,10 +37,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full relative justify-between flex items-center lg:px-[100px] h-[110px] bg-[#fff]">
+    <nav className="w-full relative justify-between flex items-center px-[15px] lg:px-[100px] h-[110px] bg-[#fff]">
       <Image src={Logo} alt="logo" />
       <div className="flex items-center gap-[50px]">
-        <ul className="flex items-center h-full gap-[50px] ">
+        <ul className="hidden lg:flex items-center h-full gap-[50px] ">
           {NavItems.map((item) => (
             <li
               className="text-[#959595] cursor-pointer hover:text-[#8B0000] "
@@ -49,7 +49,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <BrownButton className="px-[20px]" label="Donate Now" />
+        <BrownButton className="hidden lg:block px-[20px]" label="Donate Now" />
       </div>
     </nav>
   );
