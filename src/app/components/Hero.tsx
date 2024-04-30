@@ -14,7 +14,7 @@ export default function Hero() {
           </h1>
           <div className="flex">
             <BrownButton
-              className="bg-[#fff] py-[5px] lg:py-[10px] lg:text-sm text-xs lg:px-[15px] text-[#000]"
+              className="bg-[#fff] py-[5px] lg:py-[10px] lg:text-sm text-xs lg:px-[15px] text-[black]"
               label="Donate Now"
             />
             <button className="flex gap-[10px] items-center text-[#fff] px-[15px] py-[10px]">
