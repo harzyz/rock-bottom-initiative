@@ -17,7 +17,7 @@ const page = () => {
           />
         </div>
         <div className="lg:w-[55%] py-[20px] flex justify-center">
-          <form className="lg:w-[60%] gap-[20px] flex flex-col">
+          <form className="lg:w-[60%] w-[90%] gap-[20px] flex flex-col">
             <h1 className="font-bold text-[20px] lg:text-[36px] ">Join Us</h1>
             <p className="text-[#525560] text-xs">
             Register and Be Part of the Rock Bottom Family.
