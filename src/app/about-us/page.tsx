@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <WhoAreWe />
+      <WhoAreWe bgColor='' />
       <OurGoal />
       <ContactUs />
       <Footer />
