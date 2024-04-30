@@ -59,7 +59,7 @@ const SupportRock = () => {
                       {item.content}
                     </p>
                   </div>
-                  <button className="py-[10px] rounded-[5px] px-[15px] bg-[#fff] text-[black] text-sm ">
+                  <button className="py-[10px] rounded-[5px] px-[15px] bg-[#fff] text-[black] text-sm transform transition-transform hover:scale-110 ">
                     Learn More
                   </button>
                 </div>

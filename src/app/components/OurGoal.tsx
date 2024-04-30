@@ -1,39 +1,11 @@
 import React from "react";
 import BrownButton from "./BrownButton";
 import Image from "next/image";
-import sickleCellImg from "../assets/images/sicklecell1.png";
-import sickleCellImg1 from "../assets/images/sicklecell2.png";
-import sickleCellImg2 from "../assets/images/sicklecell3.png";
 // import tola from '../assets/images/tola.JPEG'
 // import Tola from "../assets/images/tola.JPEG";
 
 const OurGoal = () => {
-  const SicklecellInfo = [
-    {
-      id: 1,
-      thumbnail: sickleCellImg,
-      title: "Sickle Cell Awareness Month",
-      date: "10TH SEPTEMBER 2024",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
-    },
-    {
-      id: 2,
-      thumbnail: sickleCellImg1,
-      title: "Sickle Cell Awareness Month",
-      date: "10TH SEPTEMBER 2024",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
-    },
-    {
-      id: 3,
-      thumbnail: sickleCellImg2,
-      title: "Sickle Cell Awareness Month",
-      date: "10TH SEPTEMBER 2024",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
-    },
-  ];
+  
   return (
     <section className="w-full items-center lg:justify-between flex flex-col lg:flex-row bg-[#004832] p-[15px] lg:px-[100px] gap-[30px] lg:py-[60px] ">
       <div className="lg:w-[50%] flex flex-col gap-[20px] items-start">
