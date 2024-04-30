@@ -15,7 +15,7 @@ const Supporters = () => {
         <div className='border border-[#E5E5E5] flex-grow'></div>
         </div>
 
-        <div className='w-full flex items-center gap-[20px] flex-col lg:flex-row lg:justify-between'>
+        <div className='w-full gap-[10px] grid grid-cols-2 md:grid-cols-6'>
         <Image src={support} alt='happy children' />
         <Image src={support1} alt='happy children' />
         <Image src={support2} alt='happy children' />
