@@ -17,11 +17,11 @@ const page = () => {
             alt="Group of people smiling"
           />
         </div>
-        <div className="lg:w-[55%] py-[30px] lg:pt-[50px] flex justify-center">
+        <div className="lg:w-[55%] py-[30px] lg:pt-[50px] flex items-center justify-center">
           <form className="lg:w-[60%] w-[90%] gap-[20px] flex flex-col">
             <h1 className="font-bold text-[25px] lg:text-[36px] ">Log In</h1>
             <p className="text-[#525560] text-xs">
-              Don’t have an account?{" "}
+              Don&apos;t have an account?{" "}
               <span className="text-[#8B0000] ">Sign Up</span>
             </p>
             <input
@@ -36,7 +36,7 @@ const page = () => {
             />
             <div className="w-full flex justify-center">
               <BrownButton
-                className="w-[80%] h-[50px] bg-[#8B0000] text-sm px-[15px]"
+                className="w-full h-[50px] bg-[#8B0000] text-sm px-[15px]"
                 label="Log In"
               />
             </div>

@@ -10,49 +10,60 @@ import support5 from "../assets/images/Playwork Dreams Logo Blue and Grey.png";
 
 const Supporters = () => {
   return (
-    <section className="w-full flex flex-col gap-[30px] px-[15px] lg:px-[50px] py-[60px] ">
+    <section className="w-full flex flex-col gap-[50px] px-[15px] lg:px-[50px] py-[60px] ">
       <div className="flex items-center">
-        <h1 className="uppercase w-[150px] text-xs roboto font-bold lg:text-[16px]">
+        <h1 className="uppercase w-[110px] lg:w-[150px] text-xs roboto font-bold lg:text-[16px]">
           our Supporters
         </h1>
         <div className="border border-[#E5E5E5] flex-grow"></div>
       </div>
 
-      <div className="w-full flex justify-between">
-        <div className="w-[100px] border border-[red] h-[100px]">
-        <Image
-          className="w-full h-full"
-          src={support1}
-          alt="happy children"
-        />
+      <div className="w-full flex gap-[20px] lg:justify-between overflow-x-scroll lg:overflow-x-visible">
+        <div className='lg:w-[15%]'>
+          <div className="lg:w-full lg:h-[100px] w-[60px] h-[60px]">
+          <Image
+            className="w-full h-full"
+            src={support1}
+            alt="happy children"
+          />
+          </div>
         </div>
-        <div className="w-[100px] flex items-center justify-center border border-[red] h-[100px]">
-        <Image
-          className="w-full h-full"
-          src={support2}
-          alt="happy children"
-        />
+        <div className='lg:w-[20%]'>
+          <div className="lg:w-full lg:h-[100px] w-[80px] h-[60px]">
+          <Image
+            className="w-full h-full"
+            src={support2}
+            alt="happy children"
+          />
+          </div>
         </div>
-        {/* <Image
-          className="w-[100px] border border-[red] h-[100px]"
-          src={support2}
-          alt="happy children"
-        /> */}
-        <Image
-          className="w-[100px] border border-[red] h-[100px]"
-          src={support3}
-          alt="happy children"
-        />
-        <Image
-          className="w-[100px] border border-[red] h-[100px]"
-          src={support4}
-          alt="happy children"
-        />
-        <Image
-          className="w-[100px] border border-[red] h-[100px]"
-          src={support5}
-          alt="happy children"
-        />
+        <div className='lg:w-[15%]'>
+          <div className="lg:w-full lg:h-[100px] w-[60px] h-[60px]">
+          <Image
+            className="w-full h-full"
+            src={support3}
+            alt="happy children"
+          />
+          </div>
+        </div>
+        <div className='lg:w-[15%]'>
+          <div className="lg:w-full lg:h-[100px] w-[60px] h-[60px]">
+          <Image
+            className="w-full h-full"
+            src={support4}
+            alt="happy children"
+          />
+          </div>
+        </div>
+        <div className='lg:w-[12%]'>
+          <div className="lg:w-full lg:h-[100px] w-[60px] h-[60px]">
+          <Image
+            className="w-full h-full"
+            src={support5}
+            alt="happy children"
+          />
+          </div>
+        </div>
       </div>
     </section>
   );

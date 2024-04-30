@@ -54,7 +54,7 @@ const page = () => {
             />
             <div className="w-full flex justify-center lg:justify-start">
               <BrownButton
-                className="w-[80%] bg-[#8B0000] lg:h-[50px] text-sm px-[15px]"
+                className="w-full bg-[#8B0000] lg:h-[50px] text-sm px-[15px]"
                 label="Register"
               />
               {/* <button className="py-[10px] rounded-[5px] px-[15px] bg-[#8B0000] text-[#8B0000] text-sm ">

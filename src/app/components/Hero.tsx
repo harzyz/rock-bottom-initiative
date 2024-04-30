@@ -3,6 +3,7 @@ import React from "react";
 import bgImage from "../assets/images/BG Image.png";
 import BrownButton from "./BrownButton";
 import { IoMdPlayCircle } from "react-icons/io";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -13,16 +14,18 @@ export default function Hero() {
             Sickle Cell <br /> Awareness one <br /> story at a Time
           </h1>
           <div className="flex">
-            <BrownButton
-              className="bg-[#fff] py-[5px] lg:py-[10px] lg:text-sm text-xs font-[500] lg:px-[15px] text-[black]"
-              label="Donate Now"
-            />
-            <a href='#govid'>
+            <Link href={'/register'}>
+              <BrownButton
+                className="bg-[#fff] py-[5px] lg:py-[10px] lg:text-sm text-xs font-[500] lg:px-[15px] text-[black]"
+                label="Donate Now"
+              />
+            </Link>
+            <Link href='#govid'>
             <button className="flex gap-[10px] items-center text-[#fff] px-[15px] py-[10px]">
               <IoMdPlayCircle className="bg-[black]" color="#fff" />
               Play Video
             </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
