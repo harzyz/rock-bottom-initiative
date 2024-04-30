@@ -1,8 +1,42 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from "next/font/local"
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const Aeonik = localFont({
+  src: [
+    {
+      path: '../app/assets/fonts/Aeonik-font-download/Aeonik-Air.otf',
+      weight: '600'
+    },
+    {
+      path: '../app/assets/fonts/Aeonik-font-download/Aeonik-Black.otf',
+      weight: '800'
+    },
+    {
+      path: '../app/assets/fonts/Aeonik-font-download/Aeonik-Bold.otf',
+      weight: '700'
+    },
+    {
+      path: '../app/assets/fonts/Aeonik-font-download/Aeonik-Light.otf',
+      weight: '100'
+    },
+    {
+      path: '../app/assets/fonts/Aeonik-font-download/Aeonik-Medium.otf',
+      weight: '500'
+    },
+    {
+      path: '../app/assets/fonts/Aeonik-font-download/Aeonik-Regular.otf',
+      weight: '400'
+    },
+    {
+      path: '../app/assets/fonts/Aeonik-font-download/Aeonik-Thin.otf',
+      weight: '200'
+    },
+  ]
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={Aeonik.className}>{children}</body>
     </html>
   );
 }

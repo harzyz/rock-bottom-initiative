@@ -1,8 +1,8 @@
 import React from "react";
 import BrownButton from "./BrownButton";
 import Image from "next/image";
-// import tola from '../assets/images/tola.JPEG'
-// import Tola from "../assets/images/tola.JPEG";
+// import tola from '../assets/images/tola.jpg'
+import Tola from "../assets/images/tola.JPEG";
 
 const OurGoal = () => {
   
@@ -16,7 +16,10 @@ const OurGoal = () => {
           firsthand the challenges of living with the disease. After a
           near-death experience that left her believing she might never walk
           again, Tola had to relearn how to walk, a journey that profoundly
-          impacted her perspective on life. Motivated by her own struggles, Tola
+          impacted her perspective on life. 
+        </p>
+        <p className="text-[#fff] text-sm">
+        Motivated by her own struggles, Tola
           felt compelled to share her story and offer encouragement to others
           facing similar hardships. Recognizing the lack of sickle cell
           foundations in her hometown of Benin City, she saw an opportunity to
@@ -25,13 +28,13 @@ const OurGoal = () => {
           a community where warriors feel understood and empowered.
         </p>
         <BrownButton
-          className="text-sm font-[600] px-[15px] text-[black] bg-[#fff]"
+          className="text-sm font-[500] px-[15px] text-[black] bg-[#fff]"
           label="See More"
         />
       </div>
       <div className="lg:w-[40%] flex flex-col gap-[10px] rounded-[10px] p-[20px] bg-[#fff] h-full">
         <div className="flex items-center gap-[10px]">
-          {/* <Image className="w-full h-full" src={Tola} alt="" /> */}
+          <Image className="w-full h-full" src={Tola} alt="" />
         </div>
       </div>
     </section>

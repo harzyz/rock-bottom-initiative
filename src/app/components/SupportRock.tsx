@@ -45,10 +45,10 @@ const SupportRock = () => {
       <p className="text-center poppins">
         Help make our community a better place for all.
       </p>
-      <div className="w-full flex h-[300px] gap-[10px] lg:justify-between overflow-x-scroll lg:overflow-x-visible">
+      <div className="w-full flex h-[360px] gap-[10px] lg:justify-between overflow-x-scroll lg:overflow-x-visible">
         {Gallery.map((item) => (
           <div key={item.id}>
-            <div className="w-[300px] lg:w-[350px] lg:h-[350px] relative rounded-[10px] h-[300px]">
+            <div className="w-[300px] lg:w-full lg:h-[350px] relative rounded-[10px] h-[300px]">
               <div className="w-full rounded-[10px] flex justify-center items-center bg-[#00000066] h-full absolute top-0 left-0 p-[25px]">
                 <div className="flex justify-end items-start flex-col gap-[30px] ">
                   <div className='flex flex-col gap-[15px]'>

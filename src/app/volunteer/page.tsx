@@ -5,7 +5,7 @@ import BrownButton from "../components/BrownButton";
 
 const Volunteer = () => {
   return (
-    <div className="set bg-[#FAFAFA] flex flex-col  w-full h-full">
+    <div className="set bg-[#FAFAFA] flex flex-col min-h-[100vh]  w-full h-full">
       <Navbar />
       <div className="flex flex-col lg:flex-row h-full ">
         <div className="lg:w-[45%] lg:p-0 p-[10px] h-[200px] lg:h-[700px]">

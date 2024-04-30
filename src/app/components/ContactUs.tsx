@@ -18,13 +18,14 @@ const ContactUs = () => {
         <h5 className="text-xs font-[700]">CONTACT US</h5>
         <b>Let&apos;s talk!</b>
         <div className='text-sm'>
-        <p>hello@largerthani.com</p>
-        <p>+234 09012346514</p>
+        <a href="mailto:rockbottom.ceo@outlook.com">rockbottom.ceo@outlook.com</a>
+        {/* <p>rockbottom.ceo@outlook.com</p> */}
+        <p>+44 7440 755287</p>
         </div>
         <div className='w-full border border-[#54577A]'></div>
         <div className='text-sm'>
         <b>Volunteer Office</b>
-        <p>8 Brewery Drive, Lagos, Nigeria.</p>
+        <p>BENIN GRA, Benin, Edo State</p>
         </div>
 
         <div className='flex gap-[15px]'>
