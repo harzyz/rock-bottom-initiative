@@ -21,7 +21,7 @@ const Donations = () => {
           </div>
         </div>
         <Image
-          className="w-full h-full"
+          className="w-full h-full lg:object-fill object-cover"
           src={DonationsImage}
           alt="happy children"
         />

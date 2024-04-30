@@ -14,7 +14,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <WhoAreWe bgColor="#fff" />
+      <WhoAreWe bgColor={"#fff"} />
       <ProvideAPlace />
       <Supporters />
       <SupportRock />
