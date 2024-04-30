@@ -28,6 +28,10 @@ body {
 .poppins{
   font-family: 'Poppins', sans-serif;
 }
+.set{
+  max-width: 1440px;
+  margin: 0 auto
+}
 
 @layer utilities {
   .text-balance {

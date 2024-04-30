@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className='set'>
       <Navbar />
       <Hero />
       <WhoAreWe bgColor={"#fff"} />

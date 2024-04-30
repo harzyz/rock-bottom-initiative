@@ -7,7 +7,7 @@ import WhoAreWeee from '../components/WhoAreWeee'
 
 const page = () => {
   return (
-    <div>
+    <div className='set'>
       <Navbar />
       <WhoAreWeee />
       <OurGoal />
