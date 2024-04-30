@@ -80,10 +80,12 @@ const Navbar = () => {
             </Link>
           ))}
         </ul>
+        <Link href='/register'>
         <BrownButton
           className="hidden bg-[#8B0000] lg:block px-[20px]"
           label="Donate Now"
         />
+        </Link>
         <GiHamburgerMenu
           onClick={toggleNav}
           size={25}
