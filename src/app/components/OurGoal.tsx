@@ -2,7 +2,7 @@ import React from "react";
 import BrownButton from "./BrownButton";
 import Image from "next/image";
 // import tola from '../assets/images/tola.jpg'
-import Tola from "../assets/images/tola.JPEG";
+import Tola from "../assets/images/tola.jpeg";
 
 const OurGoal = () => {
   

@@ -1,6 +1,9 @@
 import React from "react";
 import arrow from "../assets/images/Arrow.png";
 import Image from "next/image";
+import event1 from '../assets/images/event1.jpeg'
+import event2 from '../assets/images/event2.jpeg'
+import event3 from '../assets/images/event3.jpeg'
 
 const UpComingEvents = () => {
   const Events = [
@@ -9,18 +12,21 @@ const UpComingEvents = () => {
       day: "13",
       month: "APR",
       event: "A day with our wonderful children",
+      thumbnail: event1
     },
     {
       id: 2,
       day: "23",
       month: "APR",
       event: "Seminar: A day with our wonderful  ",
+      thumbnail: event2
     },
     {
       id: 3,
       day: "23",
       month: "APR",
       event: "Seminar: A day with our wonderful  ",
+      thumbnail: event3
     },
   ];
   return (
@@ -31,7 +37,8 @@ const UpComingEvents = () => {
       <div className="w-full flex gap-[10px] lg:justify-between overflow-x-scroll lg:overflow-x-visible">
         {Events.map((item) => (
           <div key={item.id}>
-            <div className="flex w-[270px] lg:w-full items-center gap-[20px] text-[#fff] rounded-[20px] p-[30px] bg-[#004832]">
+            <div>
+            <div className="flex w-[270px] lg:w-full items-center gap-[20px] text-[#fff] rounded-tl-[20px] rounded-tr-[20px]  p-[30px] bg-[#004832]">
               <div className="w-[30px]">
                 <p className="font-[500] text-[24px]">{item.day}</p>
                 <p className="font-[500] text-sm">{item.month}</p>
@@ -41,10 +48,9 @@ const UpComingEvents = () => {
                   <p className="font-[500] uppercase">Next Events</p>
                   <p className="font-[700] text-[20px]">{item.event}</p>
                 </div>
-                <div>
-                  <Image src={arrow} alt="arrow" />
-                </div>
               </div>
+            </div>
+            <Image src={item.thumbnail} alt={item.event} />
             </div>
           </div>
         ))}

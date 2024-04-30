@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="w-full relative">
       <div className="absolute w-full ps-[15px] lg:ps-[100px] h-full flex items-center">
         <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
-          <h1 className="text-[20px] font-[700] lg:text-[40px] text-[#fff]">
+          <h1 className="text-[20px] arsenal font-[700] lg:text-[40px] text-[#fff]">
             Sickle Cell <br /> Awareness one <br /> story at a Time
           </h1>
           <div className="flex">
