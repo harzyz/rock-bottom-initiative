@@ -9,10 +9,10 @@ import support5 from '../assets/images/Logo (7).png'
 
 const Supporters = () => {
   return (
-    <section className='w-full flex flex-col gap-[30px] px-[15px] lg:px-[100px] py-[60px] '>
-        <div className='flex justify-between items-center'>
-        <h1 className='uppercase text-xs lg:text-sm'>our Supporters</h1>
-        <div className='border border-[#666] w-[50%] lg:w-[80%]'></div>
+    <section className='w-full flex flex-col gap-[30px] px-[15px] lg:px-[50px] py-[60px] '>
+        <div className='flex items-center'>
+        <h1 className='uppercase w-[150px] text-xs roboto font-bold lg:text-[16px]'>our Supporters</h1>
+        <div className='border border-[#E5E5E5] flex-grow'></div>
         </div>
 
         <div className='w-full flex items-center gap-[20px] flex-col lg:flex-row lg:justify-between'>

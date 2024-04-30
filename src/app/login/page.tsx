@@ -18,7 +18,7 @@ const page = () => {
           />
         </div>
         <div className="lg:w-[55%] py-[30px] lg:pt-[50px] flex justify-center">
-          <form className="lg:w-[60%] gap-[20px] flex flex-col">
+          <form className="lg:w-[60%] w-[85%] gap-[20px] flex flex-col">
             
             <h1 className="font-bold text-[25px] lg:text-[36px] ">Log In</h1>
             <p className="text-[#525560] text-xs">

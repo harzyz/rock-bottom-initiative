@@ -49,7 +49,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav style={{zIndex: 100}} className="w-full relative justify-between flex items-center px-[15px] lg:px-[100px] h-[110px] bg-[#fff]">
+    <nav className='sticky top-0 z-10'>
+      <div style={{zIndex: 100}} className="w-full relative justify-between flex items-center px-[15px] lg:px-[100px] h-[110px] bg-[#fff]">
       <Link href="/">
         <Image className="h-[50px] lg:h-[60px] " src={Logo} alt="logo" />
       </Link>
@@ -89,6 +90,7 @@ const Navbar = () => {
           className="block lg:hidden"
         />
       </div>
+    </div>
     </nav>
   );
 };

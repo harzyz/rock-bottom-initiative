@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-const WhoAreWe = () => {
+export interface WhoProps {
+  bgColor: string
+}
+
+const WhoAreWe:FC<WhoProps> = ({bgColor}) => {
   return (
-    <section className='w-full flex lg:flex-row flex-col gap-[20px] lg:items-end bg-[#FAFAFA] lg:px-[100px] px-[15px] lg:py-[60px] py-[30px] '>
+    <section style={{backgroundColor: bgColor}} className='w-full flex lg:flex-row flex-col gap-[20px] lg:items-end bg-[#FAFAFA] lg:px-[100px] px-[15px] lg:py-[60px] py-[30px] '>
       <div className='lg:w-[60%] flex flex-col gap-[10px]'>
         <div className='flex gap-[15px] items-center'>
           <div className='w-[30px] border border-[#000]'></div>

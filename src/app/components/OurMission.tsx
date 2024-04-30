@@ -20,9 +20,9 @@ const OurMission = () => {
     <section className='w-full flex lg:flex-row flex-col gap-[20px] lg:items-end bg-[#8B0000] lg:px-[100px] lg:justify-between px-[15px] lg:py-[60px] py-[30px] '>
       {Missions.map((item)=> (
         <div key={item.id} className='lg:w-[45%] flex flex-col gap-[10px] text-[#fff]'>
-        <h1 className='font-[600] uppercase text-sm text-[#fff] '>{item.title}</h1>
-        <p className=' font-[600] '>{item.subtitle}</p>
-        <p>{item.content}</p>
+        <h1 className='font-[600] uppercase text-[#fff] '>{item.title}</h1>
+        <p className='font-[700] text-[28px]'>{item.subtitle}</p>
+        <p className='font-[400]'>{item.content}</p>
       </div>
       ))}
     </section>
