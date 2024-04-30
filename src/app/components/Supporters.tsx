@@ -4,8 +4,9 @@ import Image from "next/image";
 import support1 from "../assets/images/EDO WOMEN.png";
 import support2 from "../assets/images/Salveo Logo.png";
 import support3 from "../assets/images/Sickle care logo.png";
-import support4 from "../assets/images/Tunde-web1_Logo-319-x-120new-300x129.png";
+import support4 from "../assets/images/EDO 2.png";
 import support5 from "../assets/images/Playwork Dreams Logo Blue and Grey.png";
+// import support6 from "../assets/images/";
 
 const Supporters = () => {
   return (
@@ -18,16 +19,25 @@ const Supporters = () => {
       </div>
 
       <div className="w-full flex justify-between">
+        <div className="w-[100px] border border-[red] h-[100px]">
         <Image
-          className="w-[100px] border border-[red] h-[100px]"
+          className="w-full h-full"
           src={support1}
           alt="happy children"
         />
+        </div>
+        <div className="w-[100px] flex items-center justify-center border border-[red] h-[100px]">
         <Image
-          className="w-[100px] border border-[red] h-[100px]"
+          className="w-full h-full"
           src={support2}
           alt="happy children"
         />
+        </div>
+        {/* <Image
+          className="w-[100px] border border-[red] h-[100px]"
+          src={support2}
+          alt="happy children"
+        /> */}
         <Image
           className="w-[100px] border border-[red] h-[100px]"
           src={support3}

@@ -2,7 +2,7 @@ import React from "react";
 import BrownButton from "./BrownButton";
 import Image from "next/image";
 // import tola from '../assets/images/tola.jpg'
-import Tola from "../assets/images/tola.jpeg";
+// import Tola from "../assets/images/tola.jpeg";
 
 const OurGoal = () => {
   
@@ -34,7 +34,7 @@ const OurGoal = () => {
       </div>
       <div className="lg:w-[40%] flex flex-col gap-[10px] rounded-[10px] p-[20px] bg-[#fff] h-full">
         <div className="flex items-center gap-[10px]">
-          <Image className="w-full h-full" src={Tola} alt="" />
+          {/* <Image className="w-full h-full" src={Tola} alt="" /> */}
         </div>
       </div>
     </section>

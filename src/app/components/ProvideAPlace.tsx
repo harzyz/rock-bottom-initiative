@@ -9,7 +9,7 @@ const ProvideAPlace = () => {
       <div className='lg:w-[50%] flex flex-col gap-[20px] items-start'>
         <h1 className=' text-[30px] lg:text-[46px] lg:leading-[57px] font-[700]'>Empowerment</h1>
         <p className=''>We empower warriors by sharing knowledge, sharing stories, listening to stories, providing resources, embracing positivity and opportunities for personal and professional growth all by building a network/community.</p>
-        <button className="py-[16px] rounded-[5px] px-[32px] bg-[#004832] text-[#fff] transform transition-transform hover:scale-110">
+        <button className="lg:py-[16px] py-[8px] rounded-[5px] px-[16px] lg:px-[32px] bg-[#004832] text-[#fff] transform transition-transform hover:scale-110">
           Learn More
         </button>
       </div>
