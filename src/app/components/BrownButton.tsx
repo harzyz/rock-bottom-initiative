@@ -6,7 +6,7 @@ export interface ButtonProps {
 }
 const BrownButton:FC<ButtonProps> = ({label, className = ''}) => {
   return (
-    <button className={`bg-[#8B0000] text-[#fff] p-[10px] rounded-[8px] ${className} `}>
+    <button className={`text-[#fff] p-[10px] rounded-[8px] hover:opacity-[40%] ${className} `}>
       {label}
     </button>
   )

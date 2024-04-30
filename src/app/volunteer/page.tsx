@@ -45,7 +45,7 @@ const Volunteer = () => {
                 className="p-[10px] h-[130px] bg-[#F2F2F2]"
                 placeholder="Type your Message"></textarea>
             </div>
-            <BrownButton className="w-[130px] text-xs px-[15px]" label="Send a message" />
+            <BrownButton className="w-[130px] bg-[#8B0000] text-xs px-[15px]" label="Send a message" />
           </form>
         </div>
       </div>
