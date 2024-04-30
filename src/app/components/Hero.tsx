@@ -6,7 +6,7 @@ import { IoMdPlayCircle } from "react-icons/io";
 
 export default function Hero() {
   return (
-    <section className="w-full relative lg:h-[600px]">
+    <section className="w-full relative h-[400px] lg:h-[600px]">
       <div className="absolute w-full ps-[15px] lg:ps-[100px] h-full flex items-center">
         <div className='flex flex-col gap-[10px] lg:gap-[20px]'>
           <h1 className="text-[20px] lg:text-[40px] text-[#fff]">
@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <Image className="w-full h-full" src={bgImage} alt="happy kids" />
+      <Image className="w-full h-full lg:object-fill object-cover" src={bgImage} alt="happy kids" />
     </section>
   );
 }
