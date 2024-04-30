@@ -10,29 +10,29 @@ const SupportRock = () => {
     {
       id: 1,
       thumbnail: box1,
-      title: "Mission smile 1k: Outdoor charity",
+      title: "Foundation and Awareness",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+        "Establish an online presence for Rock Bottom Sickle cell Initiative to increase awareness and reach a wider audience.",
     },
     {
       id: 2,
       thumbnail: box2,
-      title: "Weekly excursions",
+      title: "Strengthening Support Systems ",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+        "Conduct workshops on self-help techniques and play dates, including mental health support for sickle cell patients and their families.",
     },
     {
       id: 3,
       thumbnail: box3,
-      title: "Monthly public awareness",
+      title: "Blood Bank Initiation",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+        "Collaborate with medical institutions to identify potential locations and feasibility for the blood bank.",
     },
   ];
   return (
     <section className="w-full flex flex-col gap-[25px] bg-[#FFF] lg:px-[100px] px-[15px] lg:py-[60px] py-[30px]">
       <h1 className="text-[25px] lg:text-[40px] text-center lg:leading-[57px] font-[700]">
-        Support Rock Bottom Initiative{' '}
+        Support Rock Bottom Sickle Cell Initiative{' '}
         <span className="relative">
           today
           <Image
@@ -50,8 +50,8 @@ const SupportRock = () => {
           <div key={item.id}>
             <div className="w-[300px] lg:w-[350px] lg:h-[350px] relative rounded-[10px] h-[300px]">
               <div className="w-full rounded-[10px] flex justify-center items-center bg-[#00000066] h-full absolute top-0 left-0 p-[25px]">
-                <div className="flex justify-end items-start flex-col gap-[50px] ">
-                  <div className='flex flex-col gap-[30px]'>
+                <div className="flex justify-end items-start flex-col gap-[30px] ">
+                  <div className='flex flex-col gap-[15px]'>
                     <h1 className="text-[#fff] w-[230px] roboto font-[700] text-[26px] ">
                       {item.title}
                     </h1>

@@ -20,7 +20,7 @@ const page = () => {
           <form className="lg:w-[60%] w-[90%] gap-[20px] flex flex-col">
             <h1 className="font-bold text-[20px] lg:text-[36px] ">Join Us</h1>
             <p className="text-[#525560] text-xs">
-            Register and Be Part of the Rock Bottom Family.
+              Register and Be Part of the Rock Bottom Family.
             </p>
             <input
               className="h-[50px] ps-[30px] rounded-[8px] bg-[#F2F2F2]"
@@ -57,6 +57,9 @@ const page = () => {
                 className="w-[80%] bg-[#8B0000] lg:h-[50px] text-sm px-[15px]"
                 label="Register"
               />
+              {/* <button className="py-[10px] rounded-[5px] px-[15px] bg-[#8B0000] text-[#8B0000] text-sm ">
+              Register
+                  </button> */}
             </div>
           </form>
         </div>

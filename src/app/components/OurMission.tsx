@@ -6,13 +6,13 @@ const OurMission = () => {
       id: 1,
       title: 'Our mission',
       subtitle: 'Empower - Support - Educate: Building Resilient Lives',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.'
+      content: 'Our mission is to make a meaningful impact in the lives of people affected by sickle cell disease. Our organization, the Rock Bottom Sickle Cell Initiative, has been tirelessly working to raise awareness about sickle cell disease and provide support to individuals and families affected by this condition.'
     },
     {
       id: 2,
       title: 'Our vision',
       subtitle: 'A World Where Every Sickle  Cell Warrior Thrives',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.'
+      content: 'We are dedicated to raising awareness and providing comprehensive education about SCD to the public. Educate warriors on the need for frequent lab test. Blood test can detect other problems such as anaemia or organ damage so it can be treated early. Urine testing can also detect early kidney problems or infections.'
     },
   ]
 

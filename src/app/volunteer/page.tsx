@@ -20,8 +20,7 @@ const Volunteer = () => {
             
             <h1 className="font-bold text-[20px] lg:text-[36px] ">Volunteer Today!</h1>
             <p className="text-[#525560] text-xs">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspen
-              varius enim in eros elementum tristique.{" "}
+            You are one step away from making an impact on the lives of people that need it every day
             </p>
             <div className="w-full flex-col lg:flex-row justify-between flex ">
               <div className="flex lg:w-[45%] gap-[10px] flex-col">
