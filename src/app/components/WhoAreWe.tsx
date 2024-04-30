@@ -24,11 +24,11 @@ const WhoAreWe: FC<WhoProps> = ({ bgColor }) => {
         <b className="text-sm lg:text-[16px]">
           Why Rock Bottom Sickle Cell Initiative
         </b>
-        <p className="text-sm lg:text-[16px] text-[#54577A]">
-          OUR MISSION: Empower, Support, Educate
+        <p className="text-sm lg:text-[16px] text-[#525560]">
+          <b>OUR MISSION:</b> Empower, Support, Educate
         </p>
-        <p className="text-sm lg:text-[16px] text-[#54577A]">
-          VISION STATEMENT: A world where every sickle cell warrior thrives.
+        <p className="text-sm lg:text-[16px] text-[#525560]">
+          <b>VISION STATEMENT:</b> A world where every sickle cell warrior thrives.
         </p>
       </div>
     </section>

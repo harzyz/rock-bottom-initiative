@@ -11,7 +11,7 @@ const page = () => {
       <div className="flex flex-col lg:flex-row h-full ">
         <div className="lg:w-[45%] lg:p-0 p-[10px] h-[200px] lg:h-[700px]">
           <Image
-            className="w-full h-full object-cover"
+            className="w-full rounded-[5px] lg:rounded-0 h-full object-cover"
             src={registerImg}
             alt="Group of people smiling"
           />
@@ -53,13 +53,10 @@ const page = () => {
               type="password"
             />
             <div className="w-full flex justify-center lg:justify-start">
-              <BrownButton
-                className="w-full bg-[#8B0000] lg:h-[50px] text-sm px-[15px]"
-                label="Register"
-              />
-              {/* <button className="py-[10px] rounded-[5px] px-[15px] bg-[#8B0000] text-[#8B0000] text-sm ">
+              
+              <button className="lg:py-[16px] w-full py-[8px] rounded-[5px] px-[16px] lg:px-[32px] bg-[#8B0000] text-[#fff]">
               Register
-                  </button> */}
+            </button>
             </div>
           </form>
         </div>

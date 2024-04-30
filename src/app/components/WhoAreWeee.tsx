@@ -19,10 +19,10 @@ const WhoAreWeee = () => {
         <b className="text-sm lg:text-[16px]">
           CORE VALUES:
         </b>
-        <p className="text-sm lg:text-[16px] text-[#54577A]">
+        <p className="text-sm lg:text-[16px] text-[#525560]">
         Accuracy: We are committed to providing accurate and reliable information.
         </p>
-        <p className="text-sm lg:text-[16px] text-[#54577A]">
+        <p className="text-sm lg:text-[16px] text-[#525560]">
         Integrity: We uphold the highest ethical standards in data assessment and reporting
         </p>
         <p className="text-sm lg:text-[16px] text-[#54577A]">
